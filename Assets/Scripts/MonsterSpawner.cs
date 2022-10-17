@@ -8,12 +8,19 @@ public class MonsterSpawner : MonoBehaviour
 
     public Transform way1;
     public GameObject circle;
+    public GameObject square;
+    public GameObject diamond;
+    public GameObject hexagon;
     [SerializeField]
     public Transform monsterParent;
 
     private List<GameObject> monsters = new List<GameObject>();
     private List<Transform> paths = new List<Transform>();
+
     public GameObject[] normal;
+    //public GameObject[] fast;
+    //public GameObject[] boss;
+    //public GameObject[] leader;
 
     int totalTurnSpawn = 2;
     float timeBetweenWave = 5f;
@@ -29,6 +36,7 @@ public class MonsterSpawner : MonoBehaviour
             instance = this;
         }
     }
+
     void Start()
     {
         waveSpawn = 1;
@@ -87,7 +95,10 @@ public class MonsterSpawner : MonoBehaviour
     {
         monsters = new List<GameObject>();
         paths = new List<Transform>();
-        AddNormalMonster(3);
+        AddNormalMonster(5);
+        AddFastMonster(5);
+        AddBossMonster(2);
+        AddLeaderMonster(1);
         AddWay1Path();
     }
     void AddNormalMonster(int count)
@@ -95,6 +106,31 @@ public class MonsterSpawner : MonoBehaviour
         for (int i = 0; i < count; i++)
         {
             monsters.Add(circle);
+        }
+    }
+
+    void AddLeaderMonster(int count)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            //monsters.Add(leader[Random.Range(0, leader.Length)]);
+            monsters.Add(hexagon);
+        }
+    }
+
+    void AddFastMonster(int count)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            monsters.Add(square);
+        }
+    }
+
+    void AddBossMonster(int count)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            monsters.Add(diamond);
         }
     }
     void AddWay1Path()

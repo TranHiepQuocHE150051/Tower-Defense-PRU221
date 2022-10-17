@@ -1787,6 +1787,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   way1: {fileID: 1606409249}
   circle: {fileID: 9044728710643946056, guid: cb2f3c65454a02e4a8263ebd903bccc2, type: 3}
+  square: {fileID: 2207819220200356856, guid: d986ee2c1c987e043807d96cbfb668ae, type: 3}
+  diamond: {fileID: 9110252525692721924, guid: 5c8fe0431f80af144b518e509eb61216, type: 3}
+  hexagon: {fileID: 2030698814845811901, guid: 0795968c0e35a3f498285ef0b567b97c, type: 3}
   monsterParent: {fileID: 1895185377}
   normal: []
   isDoneSpawn: 1
