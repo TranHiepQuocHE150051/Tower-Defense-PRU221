@@ -1,0 +1,181 @@
+
+M14.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blade_Light
+  rotate: false
+  xy: 1, 112
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+M15_L_P1
+  rotate: true
+  xy: 48, 6
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+M15_L_arm
+  rotate: false
+  xy: 230, 172
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+M15_L_hand
+  rotate: true
+  xy: 185, 172
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+M15_L_leg1
+  rotate: true
+  xy: 209, 174
+  size: 16, 20
+  orig: 16, 20
+  offset: 0, 0
+  index: -1
+M15_L_leg2_1
+  rotate: true
+  xy: 153, 99
+  size: 13, 18
+  orig: 13, 18
+  offset: 0, 0
+  index: -1
+M15_L_leg2_2
+  rotate: true
+  xy: 77, 175
+  size: 12, 16
+  orig: 12, 16
+  offset: 0, 0
+  index: -1
+M15_R_leg2
+  rotate: true
+  xy: 77, 175
+  size: 12, 16
+  orig: 12, 16
+  offset: 0, 0
+  index: -1
+M15_R_P1
+  rotate: false
+  xy: 77, 41
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+M15_R_arm
+  rotate: true
+  xy: 112, 63
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+M15_R_hand
+  rotate: false
+  xy: 183, 152
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+M15_R_leg1
+  rotate: false
+  xy: 142, 81
+  size: 19, 17
+  orig: 19, 17
+  offset: 0, 0
+  index: -1
+M15_belt
+  rotate: false
+  xy: 153, 142
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+M15_belt_ac
+  rotate: false
+  xy: 170, 118
+  size: 11, 23
+  orig: 11, 23
+  offset: 0, 0
+  index: -1
+M15_body
+  rotate: false
+  xy: 77, 65
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+M15_hand2
+  rotate: false
+  xy: 183, 137
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+M15_hat
+  rotate: false
+  xy: 1, 1
+  size: 46, 34
+  orig: 46, 34
+  offset: 0, 0
+  index: -1
+M15_hat_ac
+  rotate: false
+  xy: 112, 81
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+M15_head
+  rotate: false
+  xy: 185, 191
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+M15_weapon
+  rotate: false
+  xy: 1, 188
+  size: 107, 62
+  orig: 107, 62
+  offset: 0, 0
+  index: -1
+M15_weapon_ac1
+  rotate: true
+  xy: 132, 69
+  size: 11, 20
+  orig: 11, 20
+  offset: 0, 0
+  index: -1
+M15_weapon_ac2
+  rotate: false
+  xy: 153, 113
+  size: 16, 28
+  orig: 16, 28
+  offset: 0, 0
+  index: -1
+eff_glitter1
+  rotate: false
+  xy: 1, 36
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+eff_parline1
+  rotate: false
+  xy: 109, 175
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+eff_parline2
+  rotate: false
+  xy: 77, 99
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1

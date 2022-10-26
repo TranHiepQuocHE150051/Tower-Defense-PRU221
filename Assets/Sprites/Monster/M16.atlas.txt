@@ -1,0 +1,83 @@
+
+M16.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 98, 108
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+L_wing01
+  rotate: false
+  xy: 195, 185
+  size: 53, 46
+  orig: 53, 46
+  offset: 0, 0
+  index: -1
+L_wing02
+  rotate: false
+  xy: 195, 162
+  size: 54, 22
+  orig: 54, 22
+  offset: 0, 0
+  index: -1
+L_wing03
+  rotate: false
+  xy: 98, 79
+  size: 54, 28
+  orig: 54, 28
+  offset: 0, 0
+  index: -1
+R_wing1
+  rotate: false
+  xy: 149, 119
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+R_wing2
+  rotate: false
+  xy: 195, 232
+  size: 60, 23
+  orig: 60, 23
+  offset: 0, 0
+  index: -1
+R_wing3
+  rotate: true
+  xy: 72, 26
+  size: 35, 30
+  orig: 35, 30
+  offset: 0, 0
+  index: -1
+eff_M16_3
+  rotate: true
+  xy: 1, 12
+  size: 49, 70
+  orig: 49, 70
+  offset: 0, 0
+  index: -1
+eff_par2
+  rotate: false
+  xy: 1, 159
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+eff_parline2
+  rotate: false
+  xy: 1, 62
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+eff_ring3
+  rotate: false
+  xy: 98, 159
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1

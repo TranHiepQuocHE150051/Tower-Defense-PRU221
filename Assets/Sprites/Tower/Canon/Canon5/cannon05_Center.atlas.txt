@@ -1,0 +1,27 @@
+
+cannon05_Center.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cannon_3-2_body_center
+  rotate: false
+  xy: 1, 99
+  size: 208, 149
+  orig: 208, 149
+  offset: 0, 0
+  index: -1
+cannon_3-2_mine
+  rotate: false
+  xy: 210, 223
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+eff_glow
+  rotate: false
+  xy: 1, 1
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,104 @@
+
+cannon06_top_front.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+T_0
+  rotate: false
+  xy: 255, 258
+  size: 41, 75
+  orig: 41, 75
+  offset: 0, 0
+  index: -1
+T_1
+  rotate: false
+  xy: 140, 89
+  size: 26, 152
+  orig: 26, 152
+  offset: 0, 0
+  index: -1
+T_2
+  rotate: false
+  xy: 110, 88
+  size: 29, 153
+  orig: 29, 153
+  offset: 0, 0
+  index: -1
+T_3
+  rotate: false
+  xy: 357, 343
+  size: 28, 153
+  orig: 28, 153
+  offset: 0, 0
+  index: -1
+T_4
+  rotate: false
+  xy: 309, 340
+  size: 47, 156
+  orig: 47, 156
+  offset: 0, 0
+  index: -1
+T_5
+  rotate: false
+  xy: 1, 82
+  size: 59, 159
+  orig: 59, 159
+  offset: 0, 0
+  index: -1
+T_6
+  rotate: false
+  xy: 255, 334
+  size: 53, 162
+  orig: 53, 162
+  offset: 0, 0
+  index: -1
+T_7
+  rotate: false
+  xy: 61, 82
+  size: 48, 159
+  orig: 48, 159
+  offset: 0, 0
+  index: -1
+acc1
+  rotate: false
+  xy: 82, 53
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+acc2_shadow
+  rotate: false
+  xy: 110, 62
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+t-eff_1
+  rotate: false
+  xy: 1, 1
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+t-eff_2
+  rotate: false
+  xy: 386, 416
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+t-eff_3
+  rotate: false
+  xy: 167, 161
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+top_2
+  rotate: false
+  xy: 1, 242
+  size: 253, 254
+  orig: 253, 254
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+cannon_crack_top.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Smoke_02
+  rotate: false
+  xy: 1, 1
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+Smoke_04
+  rotate: false
+  xy: 76, 76
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+eff_fire_1
+  rotate: true
+  xy: 51, 27
+  size: 23, 68
+  orig: 23, 68
+  offset: 0, 0
+  index: -1
+eff_fire_3
+  rotate: false
+  xy: 51, 12
+  size: 9, 14
+  orig: 9, 14
+  offset: 0, 0
+  index: -1
+eff_glow
+  rotate: false
+  xy: 1, 51
+  size: 74, 73
+  orig: 74, 73
+  offset: 0, 0
+  index: -1

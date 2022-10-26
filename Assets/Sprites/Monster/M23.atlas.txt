@@ -1,0 +1,125 @@
+
+M23.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+M15_L_P1
+  rotate: true
+  xy: 39, 38
+  size: 29, 23
+  orig: 29, 23
+  offset: 0, 0
+  index: -1
+M15_L_arm
+  rotate: false
+  xy: 41, 18
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+M15_L_hand
+  rotate: false
+  xy: 63, 46
+  size: 17, 24
+  orig: 17, 24
+  offset: 0, 0
+  index: -1
+M15_L_leg1
+  rotate: false
+  xy: 56, 17
+  size: 12, 20
+  orig: 12, 20
+  offset: 0, 0
+  index: -1
+M15_L_leg2_1
+  rotate: true
+  xy: 54, 3
+  size: 13, 18
+  orig: 13, 18
+  offset: 0, 0
+  index: -1
+M15_L_leg2_2
+  rotate: false
+  xy: 41, 1
+  size: 12, 16
+  orig: 12, 16
+  offset: 0, 0
+  index: -1
+M15_R_leg2
+  rotate: false
+  xy: 41, 1
+  size: 12, 16
+  orig: 12, 16
+  offset: 0, 0
+  index: -1
+M15_R_P1
+  rotate: false
+  xy: 101, 74
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+M15_R_arm
+  rotate: false
+  xy: 69, 26
+  size: 12, 19
+  orig: 12, 19
+  offset: 0, 0
+  index: -1
+M15_R_hand
+  rotate: false
+  xy: 81, 49
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+M15_R_leg1
+  rotate: false
+  xy: 102, 54
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+M15_belt
+  rotate: false
+  xy: 96, 95
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+M15_body
+  rotate: false
+  xy: 61, 94
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+M15_head
+  rotate: false
+  xy: 1, 68
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+trail_1_1
+  rotate: false
+  xy: 1, 29
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+trail_2_1
+  rotate: true
+  xy: 1, 3
+  size: 25, 39
+  orig: 25, 39
+  offset: 0, 0
+  index: -1
+trail_3_1
+  rotate: true
+  xy: 61, 71
+  size: 22, 39
+  orig: 22, 39
+  offset: 0, 0
+  index: -1

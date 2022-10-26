@@ -1,0 +1,90 @@
+
+M28.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body1
+  rotate: false
+  xy: 2, 30
+  size: 68, 115
+  orig: 68, 115
+  offset: 0, 0
+  index: -1
+body2
+  rotate: true
+  xy: 210, 415
+  size: 80, 109
+  orig: 80, 109
+  offset: 0, 0
+  index: -1
+body3
+  rotate: false
+  xy: 2, 147
+  size: 75, 115
+  orig: 75, 115
+  offset: 0, 0
+  index: -1
+body4
+  rotate: false
+  xy: 2, 382
+  size: 89, 113
+  orig: 89, 113
+  offset: 0, 0
+  index: -1
+body5
+  rotate: false
+  xy: 2, 264
+  size: 80, 116
+  orig: 80, 116
+  offset: 0, 0
+  index: -1
+body6
+  rotate: true
+  xy: 93, 416
+  size: 79, 115
+  orig: 79, 115
+  offset: 0, 0
+  index: -1
+boomring15_01
+  rotate: false
+  xy: 321, 399
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: false
+  xy: 93, 388
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 2, 2
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+eye3
+  rotate: false
+  xy: 118, 403
+  size: 26, 11
+  orig: 26, 11
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 27, 17
+  size: 24, 11
+  orig: 24, 11
+  offset: 0, 0
+  index: -1
+mouth_2
+  rotate: false
+  xy: 419, 472
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1

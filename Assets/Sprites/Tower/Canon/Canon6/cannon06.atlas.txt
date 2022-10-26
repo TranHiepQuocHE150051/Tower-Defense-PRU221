@@ -1,0 +1,146 @@
+
+cannon06.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 1, 624
+  size: 188, 137
+  orig: 188, 137
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: false
+  xy: 881, 886
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+body_2
+  rotate: false
+  xy: 160, 187
+  size: 53, 38
+  orig: 53, 38
+  offset: 0, 0
+  index: -1
+body_mid_1
+  rotate: false
+  xy: 255, 846
+  size: 152, 170
+  orig: 152, 170
+  offset: 0, 0
+  index: -1
+body_mid_2
+  rotate: true
+  xy: 190, 671
+  size: 90, 55
+  orig: 90, 55
+  offset: 0, 0
+  index: -1
+charge_eff1
+  rotate: false
+  xy: 1, 465
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+charge_eff2
+  rotate: false
+  xy: 408, 858
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+charge_eff3
+  rotate: false
+  xy: 1, 306
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+charge_eff4
+  rotate: false
+  xy: 567, 858
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+charge_eff5
+  rotate: false
+  xy: 1, 147
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+eff1
+  rotate: false
+  xy: 726, 871
+  size: 154, 145
+  orig: 154, 145
+  offset: 0, 0
+  index: -1
+eff2
+  rotate: false
+  xy: 1, 1
+  size: 154, 145
+  orig: 154, 145
+  offset: 0, 0
+  index: -1
+eff4
+  rotate: false
+  xy: 255, 700
+  size: 154, 145
+  orig: 154, 145
+  offset: 0, 0
+  index: -1
+eff5
+  rotate: false
+  xy: 410, 712
+  size: 154, 145
+  orig: 154, 145
+  offset: 0, 0
+  index: -1
+eff6
+  rotate: false
+  xy: 565, 712
+  size: 154, 145
+  orig: 154, 145
+  offset: 0, 0
+  index: -1
+eff7
+  rotate: true
+  xy: 160, 469
+  size: 154, 145
+  orig: 154, 145
+  offset: 0, 0
+  index: -1
+eff8
+  rotate: true
+  xy: 160, 314
+  size: 154, 145
+  orig: 154, 145
+  offset: 0, 0
+  index: -1
+mid_top_eff
+  rotate: false
+  xy: 160, 226
+  size: 122, 87
+  orig: 122, 87
+  offset: 0, 0
+  index: -1
+top
+  rotate: false
+  xy: 881, 904
+  size: 113, 112
+  orig: 113, 112
+  offset: 0, 0
+  index: -1
+top_2
+  rotate: false
+  xy: 1, 762
+  size: 253, 254
+  orig: 253, 254
+  offset: 0, 0
+  index: -1

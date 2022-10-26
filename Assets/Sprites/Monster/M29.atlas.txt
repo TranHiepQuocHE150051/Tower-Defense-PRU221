@@ -1,0 +1,153 @@
+
+M29.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm_1
+  rotate: false
+  xy: 124, 29
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+L_arm_2
+  rotate: true
+  xy: 2, 2
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+L_arm_3
+  rotate: false
+  xy: 126, 64
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+L_leg_1
+  rotate: true
+  xy: 233, 186
+  size: 17, 21
+  orig: 17, 21
+  offset: 0, 0
+  index: -1
+L_leg_2
+  rotate: false
+  xy: 183, 104
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+L_leg_3
+  rotate: true
+  xy: 244, 241
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+R_Arm
+  rotate: false
+  xy: 160, 86
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+R_Arm_2
+  rotate: false
+  xy: 233, 169
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+R_leg_1
+  rotate: false
+  xy: 87, 2
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+R_leg_2
+  rotate: false
+  xy: 19, 2
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+R_leg_3
+  rotate: true
+  xy: 34, 2
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+Smoke_02
+  rotate: false
+  xy: 183, 155
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 183, 117
+  size: 41, 36
+  orig: 41, 36
+  offset: 0, 0
+  index: -1
+eff_star
+  rotate: true
+  xy: 87, 24
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+eff_trail_half_02
+  rotate: false
+  xy: 96, 180
+  size: 85, 74
+  orig: 85, 74
+  offset: 0, 0
+  index: -1
+eff_trail_half_02_2
+  rotate: false
+  xy: 96, 104
+  size: 85, 74
+  orig: 85, 74
+  offset: 0, 0
+  index: -1
+eff_trail_half_04
+  rotate: false
+  xy: 2, 18
+  size: 83, 108
+  orig: 83, 108
+  offset: 0, 0
+  index: -1
+eff_trail_half_05
+  rotate: false
+  xy: 2, 128
+  size: 92, 126
+  orig: 92, 126
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 124, 46
+  size: 29, 16
+  orig: 29, 16
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 183, 205
+  size: 59, 49
+  orig: 59, 49
+  offset: 0, 0
+  index: -1
+trail_1
+  rotate: false
+  xy: 87, 64
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+M35.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 321, 425
+  size: 85, 86
+  orig: 85, 86
+  offset: 0, 0
+  index: -1
+body1
+  rotate: false
+  xy: 2, 45
+  size: 68, 115
+  orig: 68, 115
+  offset: 0, 0
+  index: -1
+body2
+  rotate: true
+  xy: 210, 430
+  size: 80, 109
+  orig: 80, 109
+  offset: 0, 0
+  index: -1
+body3
+  rotate: false
+  xy: 2, 162
+  size: 75, 115
+  orig: 75, 115
+  offset: 0, 0
+  index: -1
+body4
+  rotate: false
+  xy: 2, 397
+  size: 89, 113
+  orig: 89, 113
+  offset: 0, 0
+  index: -1
+body5
+  rotate: false
+  xy: 2, 279
+  size: 80, 116
+  orig: 80, 116
+  offset: 0, 0
+  index: -1
+body6
+  rotate: true
+  xy: 93, 431
+  size: 79, 115
+  orig: 79, 115
+  offset: 0, 0
+  index: -1
+body_broken
+  rotate: true
+  xy: 409, 442
+  size: 68, 86
+  orig: 68, 86
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 93, 408
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 497, 497
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1

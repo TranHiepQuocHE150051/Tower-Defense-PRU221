@@ -1,0 +1,132 @@
+
+M20.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B_hair_01
+  rotate: false
+  xy: 56, 202
+  size: 45, 53
+  orig: 45, 53
+  offset: 0, 0
+  index: -1
+B_hair_02
+  rotate: false
+  xy: 144, 223
+  size: 53, 32
+  orig: 53, 32
+  offset: 0, 0
+  index: -1
+B_hair_03
+  rotate: true
+  xy: 198, 226
+  size: 29, 50
+  orig: 29, 50
+  offset: 0, 0
+  index: -1
+B_hair_04
+  rotate: false
+  xy: 1, 1
+  size: 50, 35
+  orig: 50, 35
+  offset: 0, 0
+  index: -1
+B_hair_05
+  rotate: false
+  xy: 1, 86
+  size: 45, 51
+  orig: 45, 51
+  offset: 0, 0
+  index: -1
+B_hair_06
+  rotate: true
+  xy: 65, 158
+  size: 43, 35
+  orig: 43, 35
+  offset: 0, 0
+  index: -1
+B_hair_07
+  rotate: true
+  xy: 52, 1
+  size: 35, 45
+  orig: 35, 45
+  offset: 0, 0
+  index: -1
+B_hair_08
+  rotate: false
+  xy: 1, 37
+  size: 38, 48
+  orig: 38, 48
+  offset: 0, 0
+  index: -1
+B_hair_09
+  rotate: false
+  xy: 40, 37
+  size: 19, 48
+  orig: 19, 48
+  offset: 0, 0
+  index: -1
+B_hair_10
+  rotate: true
+  xy: 144, 200
+  size: 22, 53
+  orig: 22, 53
+  offset: 0, 0
+  index: -1
+F_hair_01
+  rotate: true
+  xy: 198, 197
+  size: 28, 50
+  orig: 28, 50
+  offset: 0, 0
+  index: -1
+F_hair_02
+  rotate: false
+  xy: 47, 116
+  size: 18, 34
+  orig: 18, 34
+  offset: 0, 0
+  index: -1
+F_hair_03
+  rotate: false
+  xy: 47, 151
+  size: 17, 47
+  orig: 17, 47
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 47, 98
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1
+head01
+  rotate: false
+  xy: 102, 208
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+head02
+  rotate: false
+  xy: 1, 138
+  size: 45, 60
+  orig: 45, 60
+  offset: 0, 0
+  index: -1
+m_2
+  rotate: false
+  xy: 47, 107
+  size: 18, 8
+  orig: 18, 8
+  offset: 0, 0
+  index: -1
+mb_1
+  rotate: false
+  xy: 1, 199
+  size: 54, 56
+  orig: 54, 56
+  offset: 0, 0
+  index: -1

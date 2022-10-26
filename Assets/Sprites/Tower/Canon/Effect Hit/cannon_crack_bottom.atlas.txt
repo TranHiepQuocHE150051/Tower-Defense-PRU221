@@ -1,0 +1,83 @@
+
+cannon_crack_bottom.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 9 copy 2
+  rotate: true
+  xy: 1, 16
+  size: 14, 37
+  orig: 14, 37
+  offset: 0, 0
+  index: -1
+eff_Ground
+  rotate: false
+  xy: 1, 146
+  size: 156, 109
+  orig: 156, 109
+  offset: 0, 0
+  index: -1
+eff_fiire_crack
+  rotate: false
+  xy: 1, 63
+  size: 112, 82
+  orig: 112, 82
+  offset: 0, 0
+  index: -1
+eff_fire_1
+  rotate: true
+  xy: 1, 31
+  size: 31, 91
+  orig: 31, 91
+  offset: 0, 0
+  index: -1
+eff_fire_2
+  rotate: false
+  xy: 114, 92
+  size: 19, 53
+  orig: 19, 53
+  offset: 0, 0
+  index: -1
+eff_fire_3
+  rotate: false
+  xy: 114, 72
+  size: 12, 19
+  orig: 12, 19
+  offset: 0, 0
+  index: -1
+eff_glow
+  rotate: true
+  xy: 158, 157
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1
+eff_particle_1
+  rotate: false
+  xy: 1, 1
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+eff_particle_2
+  rotate: false
+  xy: 15, 1
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+eff_particle_3
+  rotate: false
+  xy: 134, 133
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+eff_particle_4
+  rotate: false
+  xy: 93, 44
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1

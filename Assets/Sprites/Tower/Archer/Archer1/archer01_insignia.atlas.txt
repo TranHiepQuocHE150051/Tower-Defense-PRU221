@@ -1,0 +1,13 @@
+
+archer01_insignia.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Archer1_insignia
+  rotate: false
+  xy: 1, 1
+  size: 29, 78
+  orig: 29, 78
+  offset: 0, 0
+  index: -1

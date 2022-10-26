@@ -1,0 +1,132 @@
+
+cannon01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+canon_1
+  rotate: false
+  xy: 277, 391
+  size: 95, 119
+  orig: 95, 119
+  offset: 0, 0
+  index: -1
+canon_2
+  rotate: false
+  xy: 373, 423
+  size: 115, 87
+  orig: 115, 87
+  offset: 0, 0
+  index: -1
+canon_3
+  rotate: true
+  xy: 218, 186
+  size: 96, 55
+  orig: 96, 55
+  offset: 0, 0
+  index: -1
+canon_4
+  rotate: false
+  xy: 98, 88
+  size: 53, 62
+  orig: 53, 62
+  offset: 0, 0
+  index: -1
+canon_5
+  rotate: true
+  xy: 331, 295
+  size: 95, 55
+  orig: 95, 55
+  offset: 0, 0
+  index: -1
+canon_6
+  rotate: false
+  xy: 102, 194
+  size: 115, 88
+  orig: 115, 88
+  offset: 0, 0
+  index: -1
+canon_7
+  rotate: false
+  xy: 1, 44
+  size: 96, 118
+  orig: 96, 118
+  offset: 0, 0
+  index: -1
+canon_8
+  rotate: false
+  xy: 277, 261
+  size: 53, 129
+  orig: 53, 129
+  offset: 0, 0
+  index: -1
+canon_body
+  rotate: false
+  xy: 1, 283
+  size: 275, 227
+  orig: 275, 227
+  offset: 0, 0
+  index: -1
+canon_fix_1
+  rotate: false
+  xy: 274, 196
+  size: 59, 64
+  orig: 59, 64
+  offset: 0, 0
+  index: -1
+canon_fix_2
+  rotate: true
+  xy: 106, 7
+  size: 41, 37
+  orig: 41, 37
+  offset: 0, 0
+  index: -1
+canon_fix_3
+  rotate: false
+  xy: 1, 1
+  size: 67, 42
+  orig: 67, 42
+  offset: 0, 0
+  index: -1
+canon_fix_4
+  rotate: true
+  xy: 170, 129
+  size: 64, 47
+  orig: 64, 47
+  offset: 0, 0
+  index: -1
+canon_fix_5
+  rotate: false
+  xy: 102, 151
+  size: 67, 42
+  orig: 67, 42
+  offset: 0, 0
+  index: -1
+canon_fix_6
+  rotate: false
+  xy: 98, 49
+  size: 41, 38
+  orig: 41, 38
+  offset: 0, 0
+  index: -1
+canon_fix_7
+  rotate: false
+  xy: 69, 1
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+canon_fix_8
+  rotate: true
+  xy: 218, 121
+  size: 64, 51
+  orig: 64, 51
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1, 163
+  size: 100, 119
+  orig: 100, 119
+  offset: 0, 0
+  index: -1

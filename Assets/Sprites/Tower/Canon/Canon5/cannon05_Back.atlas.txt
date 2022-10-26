@@ -1,0 +1,20 @@
+
+cannon05_Back.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cannon_3-2_body_back
+  rotate: false
+  xy: 1, 110
+  size: 182, 143
+  orig: 182, 143
+  offset: 0, 0
+  index: -1
+cannon_3-2_body_back_acc
+  rotate: false
+  xy: 1, 1
+  size: 137, 108
+  orig: 137, 108
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+M08.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+M07_L_arm1
+  rotate: false
+  xy: 168, 25
+  size: 39, 37
+  orig: 39, 37
+  offset: 0, 0
+  index: -1
+M07_L_arm2
+  rotate: true
+  xy: 250, 36
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+M07_L_leg
+  rotate: true
+  xy: 209, 2
+  size: 22, 32
+  orig: 22, 32
+  offset: 0, 0
+  index: -1
+M07_R_arm
+  rotate: false
+  xy: 209, 26
+  size: 39, 36
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+M07_R_leg
+  rotate: false
+  xy: 331, 35
+  size: 20, 27
+  orig: 20, 27
+  offset: 0, 0
+  index: -1
+M07_body
+  rotate: true
+  xy: 112, 2
+  size: 30, 38
+  orig: 30, 38
+  offset: 0, 0
+  index: -1
+M07_hair
+  rotate: true
+  xy: 112, 34
+  size: 28, 54
+  orig: 28, 54
+  offset: 0, 0
+  index: -1
+M07_hat
+  rotate: false
+  xy: 2, 18
+  size: 56, 44
+  orig: 56, 44
+  offset: 0, 0
+  index: -1
+M07_hat0
+  rotate: true
+  xy: 293, 33
+  size: 29, 36
+  orig: 29, 36
+  offset: 0, 0
+  index: -1
+M07_head
+  rotate: false
+  xy: 60, 18
+  size: 50, 44
+  orig: 50, 44
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,125 @@
+
+magic01.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+magic01_L
+  rotate: true
+  xy: 349, 55
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+magic01_ball
+  rotate: false
+  xy: 351, 168
+  size: 54, 87
+  orig: 54, 87
+  offset: 0, 0
+  index: -1
+magic01_ball2
+  rotate: false
+  xy: 294, 57
+  size: 54, 87
+  orig: 54, 87
+  offset: 0, 0
+  index: -1
+magic01_ball_1
+  rotate: false
+  xy: 406, 196
+  size: 29, 59
+  orig: 29, 59
+  offset: 0, 0
+  index: -1
+magic01_ball_2
+  rotate: false
+  xy: 436, 197
+  size: 29, 58
+  orig: 29, 58
+  offset: 0, 0
+  index: -1
+magic01_ball_3
+  rotate: false
+  xy: 466, 206
+  size: 30, 49
+  orig: 30, 49
+  offset: 0, 0
+  index: -1
+magic01_ball_4
+  rotate: false
+  xy: 349, 92
+  size: 29, 47
+  orig: 29, 47
+  offset: 0, 0
+  index: -1
+magic01_ball_L
+  rotate: true
+  xy: 351, 140
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+magic01_ball_LL
+  rotate: false
+  xy: 214, 34
+  size: 79, 110
+  orig: 79, 110
+  offset: 0, 0
+  index: -1
+magic01_ball_L_0
+  rotate: false
+  xy: 47, 1
+  size: 8, 21
+  orig: 8, 21
+  offset: 0, 0
+  index: -1
+magic01_ball_L_1
+  rotate: false
+  xy: 497, 214
+  size: 12, 41
+  orig: 12, 41
+  offset: 0, 0
+  index: -1
+magic01_ball_L_2
+  rotate: true
+  xy: 1, 6
+  size: 16, 45
+  orig: 16, 45
+  offset: 0, 0
+  index: -1
+magic01_ball_L_3
+  rotate: false
+  xy: 379, 98
+  size: 20, 41
+  orig: 20, 41
+  offset: 0, 0
+  index: -1
+magic01_ball_L_4
+  rotate: true
+  xy: 294, 37
+  size: 19, 32
+  orig: 19, 32
+  offset: 0, 0
+  index: -1
+magic01_ball_L_5
+  rotate: false
+  xy: 406, 175
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+magic01_body
+  rotate: false
+  xy: 1, 23
+  size: 212, 232
+  orig: 212, 232
+  offset: 0, 0
+  index: -1
+magic01_sh
+  rotate: false
+  xy: 214, 145
+  size: 136, 110
+  orig: 136, 110
+  offset: 0, 0
+  index: -1

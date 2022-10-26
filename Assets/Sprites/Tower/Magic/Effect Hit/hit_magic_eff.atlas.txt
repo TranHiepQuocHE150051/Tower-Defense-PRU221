@@ -1,0 +1,27 @@
+
+hit_magic_eff.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit_magic_eff1
+  rotate: false
+  xy: 1, 1
+  size: 207, 210
+  orig: 207, 210
+  offset: 0, 0
+  index: -1
+hit_magic_eff2
+  rotate: false
+  xy: 209, 1
+  size: 207, 210
+  orig: 207, 210
+  offset: 0, 0
+  index: -1
+hit_magic_eff3
+  rotate: false
+  xy: 417, 1
+  size: 207, 210
+  orig: 207, 210
+  offset: 0, 0
+  index: -1

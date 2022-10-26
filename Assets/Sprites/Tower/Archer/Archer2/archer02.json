@@ -1,0 +1,571 @@
+{
+"skeleton": { "hash": "n9+S59GEmIoO9nlR5GVnPwpFW0g", "spine": "3.6.34", "width": 298, "height": 349 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "root2", "parent": "root" },
+	{ "name": "Archer2_body", "parent": "root2", "x": 1.37, "y": 28.62 },
+	{ "name": "Archer2_body2", "parent": "Archer2_body", "x": -1.6, "y": 139.68 },
+	{ "name": "Archer2_light7", "parent": "Archer2_body2", "x": 0.44, "y": 70.41, "shearX": -1.92 }
+],
+"slots": [
+	{ "name": "Archer2_body", "bone": "Archer2_body", "attachment": "Archer2_body" },
+	{ "name": "Archer2_shadow", "bone": "root2", "attachment": "Archer2_shadow" },
+	{ "name": "Archer1_body2", "bone": "Archer2_body2", "attachment": "Archer2_body2" },
+	{ "name": "Archer1_light7", "bone": "Archer2_light7", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"Archer1_body2": {
+			"Archer2_body2": { "x": 0.93, "y": 11.68, "width": 150, "height": 147 }
+		},
+		"Archer1_light7": {
+			"Archer2_light": { "x": -0.25, "y": -3.98, "scaleX": 0.781, "scaleY": 0.379, "rotation": 0.2, "width": 76, "height": 306 }
+		},
+		"Archer2_body": {
+			"Archer2_body": { "x": -2.66, "y": 63.73, "width": 268, "height": 349 }
+		},
+		"Archer2_shadow": {
+			"Archer2_shadow": { "path": "Archer1_shadow", "x": 88.71, "y": 35.35, "width": 148, "height": 143 }
+		}
+	}
+},
+"events": {
+	"at2_a_1": {}
+},
+"animations": {
+	"attack_end": {
+		"slots": {
+			"Archer1_body2": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_body2" },
+					{ "time": 0.2667, "name": "Archer2_body2" }
+				]
+			},
+			"Archer1_light7": {
+				"color": [
+					{ "time": 0, "color": "fffffffe" },
+					{ "time": 0.0667, "color": "ffffffda" },
+					{ "time": 0.1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_light" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"Archer2_body": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_body" },
+					{ "time": 0.2667, "name": "Archer2_body" }
+				]
+			},
+			"Archer2_shadow": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_shadow" },
+					{ "time": 0.2667, "name": "Archer2_shadow" }
+				]
+			}
+		},
+		"bones": {
+			"root2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Archer2_body2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 12.51 },
+					{ "time": 0.1333, "x": 0, "y": -8.26 },
+					{ "time": 0.1667, "x": 0, "y": -1.15 },
+					{ "time": 0.2, "x": 0, "y": -6.08 },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Archer2_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Archer2_light7": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.2667 }
+		]
+	},
+	"attack_idle": {
+		"slots": {
+			"Archer1_body2": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 1.5, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_body2" },
+					{ "time": 1.5, "name": "Archer2_body2" }
+				]
+			},
+			"Archer1_light7": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 1.5, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_light" },
+					{ "time": 1.5, "name": "Archer2_light" }
+				]
+			},
+			"Archer2_body": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 1.5, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_body" },
+					{ "time": 1.5, "name": "Archer2_body" }
+				]
+			},
+			"Archer2_shadow": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 1.5, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_shadow" },
+					{ "time": 1.5, "name": "Archer2_shadow" }
+				]
+			}
+		},
+		"bones": {
+			"Archer2_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Archer2_body2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 12.51, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 12.51 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Archer2_light7": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.159, "y": 0.828 },
+					{ "time": 0.3667, "x": 1.538, "y": 1.099 },
+					{ "time": 1.5, "x": 1.159, "y": 0.828 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"root2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1.5 }
+		],
+		"events": [
+			{ "time": 0.1333, "name": "at2_a_1" }
+		]
+	},
+	"attack_start": {
+		"slots": {
+			"Archer1_body2": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_body2" },
+					{ "time": 0.2667, "name": "Archer2_body2" }
+				]
+			},
+			"Archer1_light7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_light" },
+					{ "time": 0.2667, "name": "Archer2_light" }
+				]
+			},
+			"Archer2_body": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_body" },
+					{ "time": 0.2667, "name": "Archer2_body" }
+				]
+			},
+			"Archer2_shadow": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer2_shadow" },
+					{ "time": 0.2667, "name": "Archer2_shadow" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"root2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Archer2_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Archer2_body2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 0, "y": 11.85 },
+					{ "time": 0.1667, "x": 0, "y": 13.72 },
+					{ "time": 0.2, "x": 0, "y": 8.57 },
+					{ "time": 0.2667, "x": 0, "y": 12.51 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Archer2_light7": {
+				"rotate": [
+					{ "time": 0, "angle": -6.09 },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 2.878, "y": 1 },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.2667 }
+		]
+	},
+	"idle": {
+		"slots": {
+			"Archer1_body2": {
+				"attachment": [
+					{ "time": 0, "name": "Archer2_body2" },
+					{ "time": 5.7, "name": "Archer2_body2" }
+				]
+			},
+			"Archer1_light7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 5.7, "name": null }
+				]
+			},
+			"Archer2_body": {
+				"attachment": [
+					{ "time": 0, "name": "Archer2_body" },
+					{ "time": 5.7, "name": "Archer2_body" }
+				]
+			},
+			"Archer2_shadow": {
+				"attachment": [
+					{ "time": 0, "name": "Archer2_shadow" },
+					{ "time": 5.7, "name": "Archer2_shadow" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.7, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.7, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.7, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"root2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.7, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.7, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.7, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Archer2_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.7, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.7, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.7, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Archer2_body2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.7, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.7, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.7, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Archer2_light7": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.7, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.7, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.7, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

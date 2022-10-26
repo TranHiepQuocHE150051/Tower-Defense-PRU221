@@ -1,0 +1,97 @@
+
+archer06.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Archer_body2
+  rotate: false
+  xy: 1, 99
+  size: 134, 125
+  orig: 134, 125
+  offset: 0, 0
+  index: -1
+Archer_body2_acc1
+  rotate: false
+  xy: 389, 387
+  size: 59, 124
+  orig: 59, 124
+  offset: 0, 0
+  index: -1
+Archer_body2_acc1_ad
+  rotate: false
+  xy: 64, 53
+  size: 50, 45
+  orig: 50, 45
+  offset: 0, 0
+  index: -1
+Archer_body2_acc2
+  rotate: false
+  xy: 389, 324
+  size: 46, 62
+  orig: 46, 62
+  offset: 0, 0
+  index: -1
+Archer_body2_acc3
+  rotate: false
+  xy: 1, 8
+  size: 28, 36
+  orig: 28, 36
+  offset: 0, 0
+  index: -1
+Archer_body2_acc3_2
+  rotate: false
+  xy: 136, 147
+  size: 28, 23
+  orig: 28, 23
+  offset: 0, 0
+  index: -1
+Archer_body_3
+  rotate: false
+  xy: 1, 225
+  size: 387, 286
+  orig: 387, 286
+  offset: 0, 0
+  index: -1
+eff_particle_3
+  rotate: true
+  xy: 436, 375
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+pro_01
+  rotate: false
+  xy: 449, 458
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+pro_04
+  rotate: false
+  xy: 449, 404
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+pro_06
+  rotate: false
+  xy: 449, 350
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+pro_08
+  rotate: false
+  xy: 1, 45
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+pro_10
+  rotate: false
+  xy: 136, 171
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+cannon06_bottom.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_lighting3
+  rotate: false
+  xy: 1, 16
+  size: 233, 218
+  orig: 233, 218
+  offset: 0, 0
+  index: -1

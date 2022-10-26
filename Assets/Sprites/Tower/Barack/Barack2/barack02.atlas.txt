@@ -1,0 +1,34 @@
+
+barack02.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+barack01_L
+  rotate: true
+  xy: 275, 5
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: -1
+barack01_ac
+  rotate: false
+  xy: 438, 170
+  size: 35, 74
+  orig: 35, 74
+  offset: 0, 0
+  index: -1
+barack01_body
+  rotate: false
+  xy: 1, 1
+  size: 273, 243
+  orig: 273, 243
+  offset: 0, 0
+  index: -1
+barack01_sh
+  rotate: false
+  xy: 275, 88
+  size: 162, 156
+  orig: 162, 156
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+cannon02_insignia.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+insignia_2
+  rotate: false
+  xy: 1, 1
+  size: 38, 69
+  orig: 38, 69
+  offset: 0, 0
+  index: -1

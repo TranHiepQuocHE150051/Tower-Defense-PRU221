@@ -1,0 +1,55 @@
+
+archer04.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Archer_body2
+  rotate: false
+  xy: 389, 420
+  size: 122, 91
+  orig: 122, 91
+  offset: 0, 0
+  index: -1
+Archer_body_3
+  rotate: false
+  xy: 1, 225
+  size: 387, 286
+  orig: 387, 286
+  offset: 0, 0
+  index: -1
+pro_01
+  rotate: false
+  xy: 1, 171
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+pro_04
+  rotate: false
+  xy: 389, 366
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+pro_06
+  rotate: false
+  xy: 1, 117
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+pro_08
+  rotate: false
+  xy: 64, 171
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+pro_10
+  rotate: false
+  xy: 389, 312
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1

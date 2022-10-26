@@ -1,0 +1,20 @@
+
+cannon03_Back.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cannon_3-1_body_back
+  rotate: false
+  xy: 1, 105
+  size: 369, 265
+  orig: 369, 265
+  offset: 0, 0
+  index: -1
+eff_glow
+  rotate: false
+  xy: 1, 7
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,139 @@
+
+M32.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+M24_L_arm1
+  rotate: true
+  xy: 40, 142
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+M24_L_arm2
+  rotate: false
+  xy: 2, 16
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+M24_L_foot
+  rotate: false
+  xy: 217, 237
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+M24_L_hand
+  rotate: false
+  xy: 2, 57
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+M24_L_leg1
+  rotate: true
+  xy: 40, 158
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+M24_L_leg2
+  rotate: false
+  xy: 203, 235
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+M24_R_arm1
+  rotate: false
+  xy: 2, 36
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+M24_R_arm2
+  rotate: false
+  xy: 68, 194
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+M24_R_foot
+  rotate: true
+  xy: 93, 199
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+M24_R_hand
+  rotate: true
+  xy: 182, 233
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+M24_R_leg1
+  rotate: false
+  xy: 135, 224
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+M24_R_leg2
+  rotate: false
+  xy: 2, 2
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+M24_belt
+  rotate: false
+  xy: 2, 106
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+M24_body
+  rotate: false
+  xy: 68, 213
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+M24_eye
+  rotate: false
+  xy: 163, 230
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+M24_hair1
+  rotate: false
+  xy: 2, 78
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+M24_hair2
+  rotate: false
+  xy: 104, 220
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1
+M24_head
+  rotate: false
+  xy: 2, 189
+  size: 64, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
+M24_m
+  rotate: false
+  xy: 2, 140
+  size: 36, 47
+  orig: 36, 47
+  offset: 0, 0
+  index: -1

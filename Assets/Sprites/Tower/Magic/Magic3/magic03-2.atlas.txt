@@ -1,0 +1,83 @@
+
+magic03-2.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+magic01_ball_L
+  rotate: false
+  xy: 888, 206
+  size: 53, 41
+  orig: 53, 41
+  offset: 0, 0
+  index: -1
+magic01_body
+  rotate: false
+  xy: 1, 1
+  size: 211, 246
+  orig: 211, 246
+  offset: 0, 0
+  index: -1
+magic01_ca0
+  rotate: false
+  xy: 213, 13
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+magic01_ca1
+  rotate: false
+  xy: 691, 162
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+magic01_ca2
+  rotate: false
+  xy: 777, 168
+  size: 78, 79
+  orig: 78, 79
+  offset: 0, 0
+  index: -1
+magic01_ca3
+  rotate: false
+  xy: 598, 155
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+magic01_ca4
+  rotate: false
+  xy: 484, 136
+  size: 113, 111
+  orig: 113, 111
+  offset: 0, 0
+  index: -1
+magic01_g0
+  rotate: false
+  xy: 213, 109
+  size: 124, 138
+  orig: 124, 138
+  offset: 0, 0
+  index: -1
+magic01_g1
+  rotate: false
+  xy: 856, 182
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+magic01_g2
+  rotate: true
+  xy: 338, 114
+  size: 15, 67
+  orig: 15, 67
+  offset: 0, 0
+  index: -1
+magic01_sh
+  rotate: false
+  xy: 338, 130
+  size: 145, 117
+  orig: 145, 117
+  offset: 0, 0
+  index: -1

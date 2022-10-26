@@ -1,0 +1,97 @@
+
+M19.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm1
+  rotate: false
+  xy: 55, 101
+  size: 14, 24
+  orig: 14, 24
+  offset: 0, 0
+  index: -1
+L_arm2
+  rotate: false
+  xy: 55, 126
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+R_arm1
+  rotate: false
+  xy: 88, 137
+  size: 15, 21
+  orig: 15, 21
+  offset: 0, 0
+  index: -1
+R_arm2
+  rotate: false
+  xy: 191, 218
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+R_arm3
+  rotate: false
+  xy: 1, 1
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: true
+  xy: 152, 195
+  size: 11, 18
+  orig: 11, 18
+  offset: 0, 0
+  index: -1
+R_hand_1
+  rotate: false
+  xy: 152, 207
+  size: 38, 41
+  orig: 38, 41
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 59, 189
+  size: 50, 59
+  orig: 50, 59
+  offset: 0, 0
+  index: -1
+god
+  rotate: true
+  xy: 1, 31
+  size: 63, 44
+  orig: 63, 44
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1, 95
+  size: 53, 63
+  orig: 53, 63
+  offset: 0, 0
+  index: -1
+mb
+  rotate: false
+  xy: 110, 195
+  size: 41, 53
+  orig: 41, 53
+  offset: 0, 0
+  index: -1
+mb_2
+  rotate: false
+  xy: 1, 159
+  size: 57, 89
+  orig: 57, 89
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 59, 159
+  size: 47, 29
+  orig: 47, 29
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,139 @@
+
+archer05.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Archer3_1_shadow
+  rotate: false
+  xy: 323, 419
+  size: 168, 92
+  orig: 168, 92
+  offset: 0, 0
+  index: -1
+Archer4-1_Flag
+  rotate: false
+  xy: 1, 17
+  size: 78, 25
+  orig: 78, 25
+  offset: 0, 0
+  index: -1
+Archer4-1_Insignia
+  rotate: true
+  xy: 448, 304
+  size: 37, 63
+  orig: 37, 63
+  offset: 0, 0
+  index: -1
+Archer4-1_body1
+  rotate: false
+  xy: 1, 345
+  size: 321, 166
+  orig: 321, 166
+  offset: 0, 0
+  index: -1
+Archer4-1_body10
+  rotate: false
+  xy: 121, 130
+  size: 111, 77
+  orig: 111, 77
+  offset: 0, 0
+  index: -1
+Archer4-1_body2
+  rotate: true
+  xy: 1, 43
+  size: 150, 109
+  orig: 150, 109
+  offset: 0, 0
+  index: -1
+Archer4-1_body3
+  rotate: false
+  xy: 1, 194
+  size: 119, 150
+  orig: 119, 150
+  offset: 0, 0
+  index: -1
+Archer4-1_body4
+  rotate: false
+  xy: 121, 208
+  size: 132, 49
+  orig: 132, 49
+  offset: 0, 0
+  index: -1
+Archer4-1_body4_1
+  rotate: true
+  xy: 206, 77
+  size: 52, 42
+  orig: 52, 42
+  offset: 0, 0
+  index: -1
+Archer4-1_body5
+  rotate: false
+  xy: 323, 335
+  size: 124, 83
+  orig: 124, 83
+  offset: 0, 0
+  index: -1
+Archer4-1_body6
+  rotate: true
+  xy: 448, 342
+  size: 76, 63
+  orig: 76, 63
+  offset: 0, 0
+  index: -1
+Archer4-1_body7
+  rotate: false
+  xy: 251, 284
+  size: 62, 60
+  orig: 62, 60
+  offset: 0, 0
+  index: -1
+Archer4-1_body8
+  rotate: false
+  xy: 111, 51
+  size: 94, 78
+  orig: 94, 78
+  offset: 0, 0
+  index: -1
+Archer4-1_body9
+  rotate: false
+  xy: 121, 258
+  size: 129, 86
+  orig: 129, 86
+  offset: 0, 0
+  index: -1
+leaf_1
+  rotate: true
+  xy: 111, 181
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+leaf_2
+  rotate: false
+  xy: 492, 500
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+leaf_3
+  rotate: true
+  xy: 1, 1
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+leaf_4
+  rotate: false
+  xy: 251, 272
+  size: 16, 11
+  orig: 16, 11
+  offset: 0, 0
+  index: -1
+lighting
+  rotate: false
+  xy: 314, 272
+  size: 91, 62
+  orig: 91, 62
+  offset: 0, 0
+  index: -1

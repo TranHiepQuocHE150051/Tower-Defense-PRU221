@@ -1,0 +1,76 @@
+
+eff_cannon.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1, 22
+  size: 77, 83
+  orig: 77, 83
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 313, 22
+  size: 77, 83
+  orig: 77, 83
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 79, 22
+  size: 77, 83
+  orig: 77, 83
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: false
+  xy: 391, 22
+  size: 77, 83
+  orig: 77, 83
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 157, 22
+  size: 77, 83
+  orig: 77, 83
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 235, 22
+  size: 77, 83
+  orig: 77, 83
+  offset: 0, 0
+  index: -1
+b1
+  rotate: false
+  xy: 469, 22
+  size: 77, 83
+  orig: 77, 83
+  offset: 0, 0
+  index: -1
+l1
+  rotate: false
+  xy: 547, 22
+  size: 77, 83
+  orig: 77, 83
+  offset: 0, 0
+  index: -1
+l2
+  rotate: false
+  xy: 625, 22
+  size: 77, 83
+  orig: 77, 83
+  offset: 0, 0
+  index: -1
+t1
+  rotate: false
+  xy: 1, 1
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1

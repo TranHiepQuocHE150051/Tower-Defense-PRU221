@@ -1,0 +1,41 @@
+
+cannon03_Missile.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Missile_go
+  rotate: false
+  xy: 1, 66
+  size: 78, 61
+  orig: 78, 61
+  offset: 0, 0
+  index: -1
+Smoke_02
+  rotate: false
+  xy: 100, 160
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+Smoke_04
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+eff_fire_3
+  rotate: false
+  xy: 80, 108
+  size: 12, 19
+  orig: 12, 19
+  offset: 0, 0
+  index: -1
+eff_glow
+  rotate: false
+  xy: 1, 128
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1

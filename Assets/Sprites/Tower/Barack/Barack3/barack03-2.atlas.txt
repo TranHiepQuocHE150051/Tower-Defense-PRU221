@@ -1,0 +1,48 @@
+
+barack03-2.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+barack02_L
+  rotate: false
+  xy: 329, 134
+  size: 72, 121
+  orig: 72, 121
+  offset: 0, 0
+  index: -1
+barack02_ac
+  rotate: false
+  xy: 329, 36
+  size: 31, 97
+  orig: 31, 97
+  offset: 0, 0
+  index: -1
+barack02_body
+  rotate: false
+  xy: 1, 1
+  size: 327, 254
+  orig: 327, 254
+  offset: 0, 0
+  index: -1
+barack02_body__
+  rotate: false
+  xy: 361, 79
+  size: 40, 54
+  orig: 40, 54
+  offset: 0, 0
+  index: -1
+barack02_g1
+  rotate: false
+  xy: 402, 143
+  size: 31, 55
+  orig: 31, 55
+  offset: 0, 0
+  index: -1
+barack02_g2
+  rotate: false
+  xy: 402, 199
+  size: 67, 56
+  orig: 67, 56
+  offset: 0, 0
+  index: -1

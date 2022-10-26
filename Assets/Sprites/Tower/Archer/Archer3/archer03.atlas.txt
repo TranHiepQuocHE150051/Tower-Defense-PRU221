@@ -1,0 +1,118 @@
+
+archer03.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Archer3-1_body
+  rotate: false
+  xy: 1, 338
+  size: 309, 169
+  orig: 309, 169
+  offset: 0, 0
+  index: -1
+Archer3-1_body2
+  rotate: false
+  xy: 311, 398
+  size: 146, 109
+  orig: 146, 109
+  offset: 0, 0
+  index: -1
+Archer3-1_hair01
+  rotate: false
+  xy: 285, 271
+  size: 87, 65
+  orig: 87, 65
+  offset: 0, 0
+  index: -1
+Archer3-1_hair02
+  rotate: false
+  xy: 407, 340
+  size: 54, 57
+  orig: 54, 57
+  offset: 0, 0
+  index: -1
+Archer3-1_hair03
+  rotate: false
+  xy: 1, 1
+  size: 58, 49
+  orig: 58, 49
+  offset: 0, 0
+  index: -1
+Archer3-1_hair04
+  rotate: false
+  xy: 170, 250
+  size: 114, 87
+  orig: 114, 87
+  offset: 0, 0
+  index: -1
+Archer3-1_hair05
+  rotate: false
+  xy: 1, 159
+  size: 133, 85
+  orig: 133, 85
+  offset: 0, 0
+  index: -1
+Archer3-1_hair06
+  rotate: false
+  xy: 311, 337
+  size: 95, 60
+  orig: 95, 60
+  offset: 0, 0
+  index: -1
+Archer3-1_insignia
+  rotate: true
+  xy: 135, 184
+  size: 60, 23
+  orig: 60, 23
+  offset: 0, 0
+  index: -1
+Archer3_1_shadow
+  rotate: false
+  xy: 1, 245
+  size: 168, 92
+  orig: 168, 92
+  offset: 0, 0
+  index: -1
+Archer_body2
+  rotate: false
+  xy: 1, 51
+  size: 84, 107
+  orig: 84, 107
+  offset: 0, 0
+  index: -1
+leaf_1
+  rotate: false
+  xy: 458, 499
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+leaf_2
+  rotate: false
+  xy: 285, 261
+  size: 15, 9
+  orig: 15, 9
+  offset: 0, 0
+  index: -1
+leaf_3
+  rotate: false
+  xy: 373, 327
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+leaf_4
+  rotate: false
+  xy: 86, 55
+  size: 16, 11
+  orig: 16, 11
+  offset: 0, 0
+  index: -1
+lighting
+  rotate: true
+  xy: 86, 67
+  size: 91, 62
+  orig: 91, 62
+  offset: 0, 0
+  index: -1

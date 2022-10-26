@@ -6,21 +6,16 @@ public class MonsterSpawner : MonoBehaviour
 {
     public static MonsterSpawner instance;
 
-    public Transform way1;
-    public GameObject circle;
-    public GameObject square;
-    public GameObject diamond;
-    public GameObject hexagon;
+    public Transform way1;  
     [SerializeField]
     public Transform monsterParent;
 
     private List<GameObject> monsters = new List<GameObject>();
     private List<Transform> paths = new List<Transform>();
 
+    public GameObject[] boss;
+    public GameObject[] leader;
     public GameObject[] normal;
-    //public GameObject[] fast;
-    //public GameObject[] boss;
-    //public GameObject[] leader;
 
     int totalTurnSpawn = 2;
     float timeBetweenWave = 5f;
@@ -28,7 +23,42 @@ public class MonsterSpawner : MonoBehaviour
     public bool isDoneSpawn = true;
 
     private int waveSpawn;
-    
+    public int WaveSpawn
+    {
+        get
+        {
+            return waveSpawn;
+        }
+        set
+        {
+            waveSpawn = value;
+            //UIController.instance.txtWave.text = waveSpawn.ToString();
+
+            //if (waveSpawn > 5)
+            //{
+            //    foreach (Transform tower in TowerManager.instance.towerParent)
+            //    {
+            //        if (tower.GetComponent<ArcherTowerController>() != null)
+            //        {
+            //            tower.GetComponent<ArcherTowerController>().damage += tower.GetComponent<ArcherTowerController>().damage * waveSpawn * 0.02f;
+            //        }
+            //        else if (tower.GetComponent<CanonTowerController>() != null)
+            //        {
+            //            tower.GetComponent<CanonTowerController>().damage += tower.GetComponent<CanonTowerController>().damage * waveSpawn * 0.02f;
+            //        }
+            //        else if (tower.GetComponent<MagicTowerController>() != null)
+            //        {
+            //            tower.GetComponent<MagicTowerController>().damage += tower.GetComponent<MagicTowerController>().damage * waveSpawn * 0.02f;
+            //        }
+            //        else if (tower.GetComponent<LightningTowerController>() != null)
+            //        {
+            //            tower.GetComponent<LightningTowerController>().damage += tower.GetComponent<LightningTowerController>().damage * waveSpawn * 0.02f;
+            //        }
+            //    }
+            //}
+        }
+    }
+
     private void Awake()
     {
         if (instance == null)
@@ -39,7 +69,7 @@ public class MonsterSpawner : MonoBehaviour
 
     void Start()
     {
-        waveSpawn = 1;
+        WaveSpawn = 1;
     }
 
     // Update is called once per frame
@@ -84,10 +114,15 @@ public class MonsterSpawner : MonoBehaviour
                 yield return new WaitForSeconds(1.5f);
             }
 
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(8f);
         }
-      
-            //totalTurnSpawn++;        
+
+        WaveSpawn++;
+
+        if (WaveSpawn % 2 == 0)
+        {
+            totalTurnSpawn++;
+        }
 
         isDoneSpawn = true;
     }
@@ -95,17 +130,46 @@ public class MonsterSpawner : MonoBehaviour
     {
         monsters = new List<GameObject>();
         paths = new List<Transform>();
-        AddNormalMonster(5);
-        AddFastMonster(5);
-        AddBossMonster(2);
-        AddLeaderMonster(1);
-        AddWay1Path();
+        if (WaveSpawn <= 5)
+        {
+            AddLeaderMonster(1);
+            AddNormalMonster(3);
+            AddWay1Path();
+        }
+        else if (WaveSpawn > 5 && WaveSpawn <= 10)
+        {
+            AddBossMonster(1);
+            AddLeaderMonster(2);
+            AddNormalMonster(3);
+            AddWay1Path();
+        }
+        else if (WaveSpawn > 10 && WaveSpawn <= 20)
+        {
+            AddBossMonster(1);
+            AddLeaderMonster(3);
+            AddNormalMonster(7);
+            AddWay1Path();        }
+        else if (WaveSpawn > 20 && WaveSpawn <= 30)
+        {
+            AddBossMonster(2);
+            AddLeaderMonster(5);
+            AddNormalMonster(15);
+            AddWay1Path();
+
+        }
+        else if (WaveSpawn > 30)
+        {
+            AddBossMonster(5);
+            AddLeaderMonster(10);
+            AddNormalMonster(30);
+            AddWay1Path();
+        }
     }
     void AddNormalMonster(int count)
     {
         for (int i = 0; i < count; i++)
         {
-            monsters.Add(circle);
+            monsters.Add(normal[Random.Range(0, normal.Length)]);
         }
     }
 
@@ -113,24 +177,16 @@ public class MonsterSpawner : MonoBehaviour
     {
         for (int i = 0; i < count; i++)
         {
-            //monsters.Add(leader[Random.Range(0, leader.Length)]);
-            monsters.Add(hexagon);
+            monsters.Add(leader[Random.Range(0, leader.Length)]);
         }
     }
 
-    void AddFastMonster(int count)
-    {
-        for (int i = 0; i < count; i++)
-        {
-            monsters.Add(square);
-        }
-    }
 
     void AddBossMonster(int count)
     {
         for (int i = 0; i < count; i++)
         {
-            monsters.Add(diamond);
+            monsters.Add(boss[0]);
         }
     }
     void AddWay1Path()

@@ -1,0 +1,76 @@
+
+M12.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body_1
+  rotate: false
+  xy: 1, 66
+  size: 49, 61
+  orig: 49, 61
+  offset: 0, 0
+  index: -1
+Hair1
+  rotate: false
+  xy: 1, 6
+  size: 47, 59
+  orig: 47, 59
+  offset: 0, 0
+  index: -1
+Hair2
+  rotate: false
+  xy: 51, 89
+  size: 62, 38
+  orig: 62, 38
+  offset: 0, 0
+  index: -1
+Hair3
+  rotate: false
+  xy: 49, 24
+  size: 33, 40
+  orig: 33, 40
+  offset: 0, 0
+  index: -1
+Hair4
+  rotate: true
+  xy: 51, 65
+  size: 23, 56
+  orig: 23, 56
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: true
+  xy: 102, 44
+  size: 20, 25
+  orig: 20, 25
+  offset: 0, 0
+  index: -1
+L_leg
+  rotate: false
+  xy: 83, 36
+  size: 18, 28
+  orig: 18, 28
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: false
+  xy: 102, 23
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+R_leg
+  rotate: true
+  xy: 49, 5
+  size: 18, 28
+  orig: 18, 28
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 114, 115
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1

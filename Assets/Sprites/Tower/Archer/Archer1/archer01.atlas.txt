@@ -1,0 +1,34 @@
+
+archer01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Archer1_body
+  rotate: false
+  xy: 1, 261
+  size: 202, 185
+  orig: 202, 185
+  offset: 0, 0
+  index: -1
+Archer1_body2
+  rotate: false
+  xy: 204, 343
+  size: 107, 103
+  orig: 107, 103
+  offset: 0, 0
+  index: -1
+Archer1_light
+  rotate: false
+  xy: 1, 1
+  size: 56, 151
+  orig: 56, 151
+  offset: 0, 0
+  index: -1
+Archer1_shadow
+  rotate: false
+  xy: 1, 153
+  size: 111, 107
+  orig: 111, 107
+  offset: 0, 0
+  index: -1

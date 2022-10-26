@@ -1,0 +1,924 @@
+{
+"skeleton": { "hash": "2T1UKkrHo0MXJUCRC4XwipgKfFU", "spine": "3.8", "width": 298, "height": 314.95 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "root2", "parent": "root" },
+	{ "name": "Archer1_body", "parent": "root2", "x": 1.37, "y": 28.62 },
+	{ "name": "Archer1_body2", "parent": "Archer1_body", "x": -1.6, "y": 123.99 },
+	{ "name": "Archer1_light", "parent": "Archer1_body2", "x": 1.63, "y": 69.18 },
+	{ "name": "Archer1_light5", "parent": "Archer1_body2", "x": 1.63, "y": 69.18 },
+	{ "name": "Archer1_light6", "parent": "Archer1_body2", "x": 1.63, "y": 69.18 },
+	{ "name": "Archer1_light7", "parent": "Archer1_body2", "rotation": 3.49, "x": 1.61, "y": 69.18, "scaleX": 1.146, "scaleY": 0.389 },
+	{ "name": "Archer1_light9", "parent": "Archer1_body2", "x": 1.55, "y": 69.18 }
+],
+"slots": [
+	{ "name": "Archer1_shadow", "bone": "root2", "attachment": "Archer1_shadow" },
+	{ "name": "Archer1_body", "bone": "Archer1_body", "attachment": "Archer1_body" },
+	{ "name": "Archer1_body2", "bone": "Archer1_body2", "attachment": "Archer1_body2" },
+	{ "name": "Archer1_light", "bone": "Archer1_light", "blend": "additive" },
+	{ "name": "Archer1_light6", "bone": "Archer1_light6", "blend": "additive" },
+	{ "name": "Archer1_light7", "bone": "Archer1_light7", "blend": "additive" },
+	{ "name": "Archer1_light8", "bone": "Archer1_light9", "blend": "additive" },
+	{ "name": "Archer1_light5", "bone": "Archer1_light5", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"Archer1_body": {
+			"Archer1_body": { "x": -2.16, "y": 12.73, "width": 269, "height": 247 }
+		},
+		"Archer1_body2": {
+			"Archer1_body2": { "x": 0.93, "y": 11.68, "width": 142, "height": 137 }
+		},
+		"Archer1_light": {
+			"Archer1_light": { "x": -0.19, "y": -4.5, "width": 75, "height": 201 }
+		},
+		"Archer1_light5": {
+			"Archer1_light": { "x": -0.19, "y": -4.5, "width": 75, "height": 201 }
+		},
+		"Archer1_light6": {
+			"Archer1_light": { "x": -0.19, "y": -4.5, "width": 75, "height": 201 }
+		},
+		"Archer1_light7": {
+			"Archer1_light": { "x": 0.79, "y": -6.79, "rotation": -3.2, "width": 75, "height": 201 }
+		},
+		"Archer1_light8": {
+			"Archer1_light": { "x": -0.19, "y": -4.5, "width": 75, "height": 201 }
+		},
+		"Archer1_shadow": {
+			"Archer1_shadow": { "x": 88.71, "y": 35.35, "width": 148, "height": 143 }
+		}
+	}
+},
+"events": {
+	"at1_a_1": {}
+},
+"animations": {
+	"attack_end": {
+		"slots": {
+			"Archer1_body": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_body" },
+					{ "time": 0.2667, "name": "Archer1_body" }
+				]
+			},
+			"Archer1_body2": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_body2" },
+					{ "time": 0.2667, "name": "Archer1_body2" }
+				]
+			},
+			"Archer1_light": {
+				"color": [
+					{ "time": 0, "color": "fffffffe" },
+					{ "time": 0.2667, "color": "ffffffa2" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"Archer1_light5": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"Archer1_light6": {
+				"color": [
+					{ "time": 0, "color": "fffffffe" },
+					{ "time": 0.2667, "color": "ffffff8e" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"Archer1_light7": {
+				"color": [
+					{ "time": 0, "color": "ffffffa8" },
+					{ "time": 0.0667, "color": "ffffffda" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_light" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"Archer1_light8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"Archer1_shadow": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.2667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_shadow" },
+					{ "time": 0.2667, "name": "Archer1_shadow" }
+				]
+			}
+		},
+		"bones": {
+			"Archer1_light": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.63, "y": 0 },
+					{ "time": 0.2667, "x": -24.36, "y": -24.87 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2667, "x": 0.49, "y": 1.386 }
+				]
+			},
+			"root2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.63, "y": 0 },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_body2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 11.37 },
+					{ "time": 0.1333, "x": 0, "y": -16.74 },
+					{ "time": 0.1667, "x": 0, "y": -1.15 },
+					{ "time": 0.2, "x": 0, "y": -12.14 },
+					{ "time": 0.2667, "x": 0, "y": 0.1 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light6": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.63, "y": 0 },
+					{ "time": 0.2667, "x": 65.42, "y": -41.19 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2667, "x": 0.336, "y": 2.419 }
+				]
+			},
+			"Archer1_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light7": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.61, "y": 0 },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.0667, "x": 3.838, "y": 0.143 },
+					{ "time": 0.1, "x": 1.211, "y": 0.194 },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light9": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.55, "y": 0 },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.2667 }
+		]
+	},
+	"attack_idle": {
+		"slots": {
+			"Archer1_body": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 1.5, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_body" },
+					{ "time": 1.5, "name": "Archer1_body" }
+				]
+			},
+			"Archer1_body2": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 1.5, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_body2" },
+					{ "time": 1.5, "name": "Archer1_body2" }
+				]
+			},
+			"Archer1_light": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 1.5, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.5, "name": null }
+				]
+			},
+			"Archer1_light5": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 1.5, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.5, "name": null }
+				]
+			},
+			"Archer1_light6": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 1.5, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.5, "name": null }
+				]
+			},
+			"Archer1_light7": {
+				"color": [
+					{ "time": 0, "color": "ffffffa8" },
+					{ "time": 0.2, "color": "ffffff5a" },
+					{ "time": 0.4, "color": "ffffffa8" },
+					{ "time": 0.9333, "color": "ffffff5a" },
+					{ "time": 1.5, "color": "ffffffa8" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_light" },
+					{ "time": 1.5, "name": "Archer1_light" }
+				]
+			},
+			"Archer1_light8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Archer1_shadow": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 1.5, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_shadow" },
+					{ "time": 1.5, "name": "Archer1_shadow" }
+				]
+			}
+		},
+		"bones": {
+			"Archer1_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.63, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": -1.63, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.63, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": -1.63, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_body2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 11.37, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 11.37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light6": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.63, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": -1.63, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"root2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light7": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.61, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": -1.61, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 0.788, "y": 0.788 },
+					{ "time": 0.4, "x": 1, "y": 1 },
+					{ "time": 0.9333, "x": 0.788, "y": 0.788 },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light9": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.55, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": -1.55, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1.5 }
+		],
+		"events": [
+			{ "time": 0.1667, "name": "at1_a_1" }
+		]
+	},
+	"attack_start": {
+		"slots": {
+			"Archer1_body": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.3333, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_body" },
+					{ "time": 0.3333, "name": "Archer1_body" }
+				]
+			},
+			"Archer1_body2": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.3333, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_body2" },
+					{ "time": 0.3333, "name": "Archer1_body2" }
+				]
+			},
+			"Archer1_light": {
+				"color": [
+					{ "time": 0, "color": "ffffffa2" },
+					{ "time": 0.3333, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"Archer1_light5": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.3333, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"Archer1_light6": {
+				"color": [
+					{ "time": 0, "color": "ffffff8e" },
+					{ "time": 0.3333, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"Archer1_light7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "fffffffe" },
+					{ "time": 0.3333, "color": "ffffffa8" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_light" },
+					{ "time": 0.3333, "name": "Archer1_light" }
+				]
+			},
+			"Archer1_light8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"Archer1_shadow": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.3333, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_shadow" },
+					{ "time": 0.3333, "name": "Archer1_shadow" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"root2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_body2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0.1 },
+					{ "time": 0.2, "x": 0, "y": 13.64 },
+					{ "time": 0.2333, "x": 0, "y": 10.01 },
+					{ "time": 0.2667, "x": 0, "y": 14.12 },
+					{ "time": 0.3333, "x": 0, "y": 11.37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -24.36, "y": -24.87 },
+					{ "time": 0.3333, "x": -1.63, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.49, "y": 1.386 },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": -1.63, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light6": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 65.42, "y": -41.19 },
+					{ "time": 0.3333, "x": -1.63, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.336, "y": 2.419 },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light7": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": -1.61, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.687 },
+					{ "time": 0.3333, "x": 1, "y": 0.954 }
+				]
+			},
+			"Archer1_light9": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": -1.55, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.3333 }
+		]
+	},
+	"idle": {
+		"slots": {
+			"Archer1_body": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 5.6667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_body" },
+					{ "time": 5.6667, "name": "Archer1_body" }
+				]
+			},
+			"Archer1_body2": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 5.6667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_body2" },
+					{ "time": 5.6667, "name": "Archer1_body2" }
+				]
+			},
+			"Archer1_light": {
+				"color": [
+					{ "time": 0, "color": "ffffffa2", "curve": "stepped" },
+					{ "time": 5.6667, "color": "ffffffa2" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 5.6667, "name": null }
+				]
+			},
+			"Archer1_light5": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 5.6667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 5.6667, "name": null }
+				]
+			},
+			"Archer1_light6": {
+				"color": [
+					{ "time": 0, "color": "ffffff8e", "curve": "stepped" },
+					{ "time": 5.6667, "color": "ffffff8e" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 5.6667, "name": null }
+				]
+			},
+			"Archer1_light7": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 5.6667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 5.6667, "name": null }
+				]
+			},
+			"Archer1_light8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 5.6667, "name": null }
+				]
+			},
+			"Archer1_shadow": {
+				"color": [
+					{ "time": 0, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 5.6667, "color": "fffffffe" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Archer1_shadow" },
+					{ "time": 5.6667, "name": "Archer1_shadow" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.6667, "x": 1, "y": 1 }
+				]
+			},
+			"root2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.6667, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.6667, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_body2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0.1, "curve": "stepped" },
+					{ "time": 5.6667, "x": 0, "y": 0.1 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.6667, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -24.36, "y": -24.87, "curve": "stepped" },
+					{ "time": 5.6667, "x": -24.36, "y": -24.87 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.49, "y": 1.386, "curve": "stepped" },
+					{ "time": 5.6667, "x": 0.49, "y": 1.386 }
+				]
+			},
+			"Archer1_light6": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 65.42, "y": -41.19, "curve": "stepped" },
+					{ "time": 5.6667, "x": 65.42, "y": -41.19 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.336, "y": 2.419, "curve": "stepped" },
+					{ "time": 5.6667, "x": 0.336, "y": 2.419 }
+				]
+			},
+			"Archer1_light5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.6667, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light7": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.6667, "x": 1, "y": 1 }
+				]
+			},
+			"Archer1_light9": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 5.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.6667, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 5.6667 }
+		]
+	}
+}
+}

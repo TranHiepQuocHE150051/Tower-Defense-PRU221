@@ -6,7 +6,7 @@ public class GameplayController : MonoBehaviour
 {
     public static GameplayController instance;
     public LayerMask towerPlacementLayer;
-    //public LayerMask towerLayer;
+    public LayerMask towerLayer;
     private bool isMultiTouch = false;
     private bool isDragging = false;
     Vector3 touchStart;
@@ -46,23 +46,23 @@ public class GameplayController : MonoBehaviour
                         UIController.instance.OpenBtnBuyTower(hit.collider.transform, hit.collider.transform.parent.GetSiblingIndex());
                     }
                 }
-                //else
-                //{
-                //    UIController.instance.CloseBtnBuyTower();
+                else
+                {
+                    UIController.instance.CloseBtnBuyTower();
 
-                //    hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity, towerLayer);
-                //    if (hit.collider != null)
-                //    {
-                //        if (hit.collider.tag.Equals("Tower"))
-                //        {
-                //            UIController.instance.OpenBtnUpgradeAndSellTower(hit.collider.transform, hit.collider.gameObject.transform.parent.gameObject);
-                //        }
-                //    }
-                //    else
-                //    {
-                //        UIController.instance.CloseBtnUpgradeAndSellTower();
-                //    }
-                //}
+                    hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity, towerLayer);
+                    if (hit.collider != null)
+                    {
+                        if (hit.collider.tag.Equals("Tower"))
+                        {
+                            UIController.instance.OpenBtnUpgradeAndSellTower(hit.collider.transform, hit.collider.gameObject.transform.parent.gameObject);
+                        }
+                    }
+                    else
+                    {
+                        UIController.instance.CloseBtnUpgradeAndSellTower();
+                    }
+                }
 
 
             }
