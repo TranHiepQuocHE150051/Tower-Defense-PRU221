@@ -1,0 +1,4 @@
+#Tue Nov 01 00:08:52 ICT 2022
+base.0=C\:\\Users\\This PC\\Downloads\\Tower-Defense-2D-master\\Tower Defense 2D\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

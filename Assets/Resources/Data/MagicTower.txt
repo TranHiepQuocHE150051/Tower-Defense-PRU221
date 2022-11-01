@@ -1,0 +1,30 @@
+[
+ {
+   "Level": 1,
+   "Damage": 20,
+   "FireRate": 4,
+   "FireRange": 1.5,
+   "Price": 45
+ },
+ {
+   "Level": 2,
+   "Damage": 37.5,
+   "FireRate": 3,
+   "FireRange": 1.5,
+   "Price": 60
+ },
+ {
+   "Level": 3,
+   "Damage": 80,
+   "FireRate": 2,
+   "FireRange": 1.5,
+   "Price": 90
+ },
+ {
+   "Level": 4,
+   "Damage": 90,
+   "FireRate": 1,
+   "FireRange": 1.5,
+   "Price": 150
+ }
+]

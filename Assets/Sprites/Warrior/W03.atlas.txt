@@ -1,0 +1,146 @@
+
+W03.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+W03_L_P
+  rotate: false
+  xy: 371, 45
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+W03_L_arm1
+  rotate: false
+  xy: 389, 45
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+W03_L_arm2
+  rotate: true
+  xy: 78, 12
+  size: 11, 17
+  orig: 11, 17
+  offset: 0, 0
+  index: -1
+W03_L_leg1
+  rotate: false
+  xy: 435, 48
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+W03_L_leg2
+  rotate: true
+  xy: 58, 10
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+W03_L_sh
+  rotate: true
+  xy: 1, 1
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+W03_R_P
+  rotate: true
+  xy: 449, 51
+  size: 12, 16
+  orig: 12, 16
+  offset: 0, 0
+  index: -1
+W03_R_arm1
+  rotate: false
+  xy: 41, 5
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+W03_R_arm2
+  rotate: false
+  xy: 405, 46
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+W03_R_leg1
+  rotate: false
+  xy: 466, 50
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+W03_R_leg2
+  rotate: false
+  xy: 420, 48
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+W03_R_sh
+  rotate: false
+  xy: 352, 45
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+W03_Shield
+  rotate: false
+  xy: 204, 24
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+W03_body
+  rotate: false
+  xy: 240, 28
+  size: 36, 35
+  orig: 36, 35
+  offset: 0, 0
+  index: -1
+W03_hair
+  rotate: false
+  xy: 277, 34
+  size: 36, 29
+  orig: 36, 29
+  offset: 0, 0
+  index: -1
+W03_head
+  rotate: false
+  xy: 153, 14
+  size: 50, 49
+  orig: 50, 49
+  offset: 0, 0
+  index: -1
+W03_knife
+  rotate: false
+  xy: 314, 36
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1
+W03_skirt
+  rotate: false
+  xy: 22, 5
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+w_trail_1
+  rotate: true
+  xy: 1, 24
+  size: 39, 75
+  orig: 39, 75
+  offset: 0, 0
+  index: -1
+w_trail_2
+  rotate: true
+  xy: 77, 24
+  size: 39, 75
+  orig: 39, 75
+  offset: 0, 0
+  index: -1

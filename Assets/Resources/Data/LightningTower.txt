@@ -1,0 +1,16 @@
+[
+ {
+   "Level": 1,
+   "Damage": 75,
+   "FireRate": 5,
+   "FireRange": 1.5,
+   "Price": 400
+ },
+ {
+   "Level": 2,
+   "Damage": 400,
+   "FireRate": 10,
+   "FireRange": 1.5,
+   "Price": 1000
+ }
+]

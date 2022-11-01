@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - TowerPlacement
+  - Monster
   - Tower
   layers:
   - Default
@@ -16,9 +17,9 @@ TagManager:
   - 
   - 
   - TowerPlacement
-  - 
+  - Monster
   - Tower
-  - 
+  - Bullet
   - 
   - 
   - 
@@ -42,34 +43,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Ground
-    uniqueID: 3286568179
-    locked: 0
-  - name: DetailsBottom
-    uniqueID: 2760931655
-    locked: 0
-  - name: Obstacles
-    uniqueID: 975947165
-    locked: 0
-  - name: Enemies
-    uniqueID: 2823942235
-    locked: 0
-  - name: Player
-    uniqueID: 297575681
-    locked: 0
-  - name: Items
-    uniqueID: 784727535
-    locked: 0
-  - name: Bullets
-    uniqueID: 1180159871
-    locked: 0
-  - name: SpecialEffects
-    uniqueID: 1476806939
-    locked: 0
-  - name: DetailsTop
-    uniqueID: 973470441
-    locked: 0
-  - name: UI
-    uniqueID: 1337076293
     locked: 0
