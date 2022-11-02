@@ -22,6 +22,9 @@ public class ArcherTowerController : MonoBehaviour
     public Transform attackRange;
 
     float arrowSpeed = 5f;
+    private ObjectPool bulletPool;
+    [SerializeField]
+    private int bulletPoolCount = 2;
 
     private int level;
     public int Level
@@ -53,13 +56,15 @@ public class ArcherTowerController : MonoBehaviour
 
     private void Awake()
     {
-        
+        bulletPool = GetComponent<ObjectPool>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
         Level = 1;
+        bulletPool.Initialize(arrow, bulletPoolCount);
+
     }
 
     // Update is called once per frame
@@ -183,13 +188,15 @@ public class ArcherTowerController : MonoBehaviour
             spineLevelParent.GetChild(Level - 1).GetChild(1).GetComponent<SkeletonAnimation>().state.SetAnimation(0, "attack_idle", false);
         }
 
-        GameObject bullet = Instantiate(arrow, arrowParentLv1);
-        
+        //GameObject bullet = Instantiate(arrow, arrowParentLv1);
+        GameObject bullet = bulletPool.CreateObject();
+        bullet.transform.position = arrowParentLv1.position;
+        bullet.transform.localRotation = arrowParentLv1.rotation;
 
-        bullet.transform.localPosition = new Vector3(0, 0, 0);
+        //bullet.transform.localPosition = new Vector3(0, 0, 0);
         Vector3 direct = monster.transform.position - bullet.transform.position;
         float angle = Mathf.Atan2(direct.y, direct.x) * Mathf.Rad2Deg;
-        bullet.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        //bullet.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, angle));
 
         float distance = Vector2.Distance(bullet.transform.position, monster.transform.position);
         float time = distance / arrowSpeed;
@@ -200,7 +207,8 @@ public class ArcherTowerController : MonoBehaviour
 
         AudioController.instance.PlaySound("archerHit");
 
-        Destroy(bullet);
+        //Destroy(bullet);
+        bullet.SetActive(false);
 
         if (monster.GetComponentInParent<MonsterController>().Health > 0)
         {

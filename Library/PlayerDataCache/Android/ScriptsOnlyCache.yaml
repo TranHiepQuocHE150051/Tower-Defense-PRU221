@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - MagicTowerController
     - MonsterController
     - MonsterSpawnController
+    - ObjectPool
     - PlayerSetting
     - Spine.Unity.AtlasAsset
     - Spine.Unity.SkeletonAnimation
@@ -24,7 +25,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
@@ -104,37 +104,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1584}
     - Class: 114
-      Script: {instanceID: 1838}
+      Script: {instanceID: 1836}
     - Class: 114
-      Script: {instanceID: 2088}
+      Script: {instanceID: 2086}
     - Class: 114
-      Script: {instanceID: 2546}
+      Script: {instanceID: 2544}
     - Class: 114
-      Script: {instanceID: 2634}
+      Script: {instanceID: 2632}
     - Class: 114
-      Script: {instanceID: 2996}
+      Script: {instanceID: 2994}
     - Class: 114
-      Script: {instanceID: 3052}
+      Script: {instanceID: 3050}
     - Class: 114
-      Script: {instanceID: 3150}
+      Script: {instanceID: 3148}
     - Class: 114
-      Script: {instanceID: 3244}
+      Script: {instanceID: 3242}
     - Class: 114
-      Script: {instanceID: 3326}
+      Script: {instanceID: 3324}
     - Class: 114
-      Script: {instanceID: 3352}
+      Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 3364}
+      Script: {instanceID: 3362}
     - Class: 114
-      Script: {instanceID: 3544}
+      Script: {instanceID: 3542}
     - Class: 114
-      Script: {instanceID: 3598}
+      Script: {instanceID: 3596}
     - Class: 114
-      Script: {instanceID: 3864}
+      Script: {instanceID: 3862}
     - Class: 114
-      Script: {instanceID: 4390}
+      Script: {instanceID: 4388}
     - Class: 114
-      Script: {instanceID: 4408}
+      Script: {instanceID: 4406}
+    - Class: 114
+      Script: {instanceID: 4456}
     - Class: 114
       Script: {instanceID: 4562}
     - Class: 114
@@ -144,13 +146,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5162}
     - Class: 114
-      Script: {instanceID: 5606}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 5872}
+      Script: {instanceID: 5874}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5984}
     - Class: 114
-      Script: {instanceID: 6832}
+      Script: {instanceID: 6834}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -648,6 +650,12 @@ ScriptsOnlyBuild:
     className: VibrationTest
   - hash:
       serializedVersion: 2
+      Hash: c401558daf348e28a839564e47e9bd20
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectPool
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -804,7 +812,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 79d635d9edaaac2942f9af1b9fbfa388
+      Hash: 88a77ebb9cca1a0f01b8d6af51a7f53d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ArcherTowerController
@@ -838,6 +846,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: 
     className: SpriteShapeGeometryCache
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestroyIfDisabled
   - hash:
       serializedVersion: 2
       Hash: 3ee38dae950a2169533c65ccdabe70cc
@@ -1024,6 +1038,36 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AudioController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ArcherTower
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CannonTower
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MagicTower
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LightingTower
+  - hash:
+      serializedVersion: 2
+      Hash: 7f12f0b3c2be8f8ace881609bbff451c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Client
   platform: 13
   scenePathNames:
   - Assets/Scenes/Gameplay.unity

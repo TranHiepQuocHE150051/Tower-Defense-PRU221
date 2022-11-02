@@ -36,7 +36,7 @@ public class GameplayController : MonoBehaviour
     {
         //GetMapSize();
 
-        PlayerSetting.instance.Coin = 250;
+        PlayerSetting.instance.Coin = 300;
         PlayerSetting.instance.Health = 15;
     }
 

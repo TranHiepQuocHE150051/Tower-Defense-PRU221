@@ -803,6 +803,7 @@ GameObject:
   - component: {fileID: 284971372805799722}
   - component: {fileID: 5019042185137838994}
   - component: {fileID: 7384871540977844003}
+  - component: {fileID: 8111152944038471051}
   m_Layer: 10
   m_Name: Archer
   m_TagString: Tower
@@ -872,6 +873,7 @@ MonoBehaviour:
   arrowParentLv3: {fileID: 6235386781856908080}
   arrowParentLv4: {fileID: 3246548921543782233}
   attackRange: {fileID: 4979109464347450383}
+  bulletPoolCount: 10
   damage: 0
   price: 0
   priceToUpgrade: 0
@@ -888,6 +890,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   towerPlacementIndex: 0
+--- !u!114 &8111152944038471051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6277691435340428955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ecaf57a8fafcb49ae06abf5806f33d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToPool: {fileID: 0}
+  poolSize: 10
+  spawnedObjectsParent: {fileID: 0}
+  alwaysDestroy: 0
 --- !u!1 &6366700578005510991
 GameObject:
   m_ObjectHideFlags: 0

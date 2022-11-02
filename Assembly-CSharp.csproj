@@ -123,6 +123,7 @@
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
     <Compile Include="Assets\Scripts\Gameplay\TowerController.cs" />
     <Compile Include="Assets\AndroidVibratorPackage\VibrationTest.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\ObjectPool.cs" />
     <Compile Include="Assets\Spine\spine-unity\Mesh Generation\Unused\ISubmeshedMeshGenerator.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
     <Compile Include="Assets\Spine\spine-csharp\PathConstraintData.cs" />
@@ -144,6 +145,7 @@
     <Compile Include="Assets\Spine\spine-unity\Modules\Ragdoll\SkeletonRagdoll.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
     <Compile Include="Assets\Spine\spine-csharp\Skeleton.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\DestroyIfDisabled.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipTrack.cs" />
@@ -183,6 +185,14 @@
     <Compile Include="Assets\Spine\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
     <Compile Include="Assets\Scripts\Audio\AudioController.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
+    <Compile Include="Assets\Scripts\AbstractFactoryPattern\ITowerFactory.cs" />
+    <Compile Include="Assets\Scripts\AbstractFactoryPattern\TowerFactory.cs" />
+    <Compile Include="Assets\Scripts\AbstractFactoryPattern\ArcherTower.cs" />
+    <Compile Include="Assets\Scripts\AbstractFactoryPattern\CannonTower.cs" />
+    <Compile Include="Assets\Scripts\AbstractFactoryPattern\MagicTower.cs" />
+    <Compile Include="Assets\Scripts\AbstractFactoryPattern\LightingTower.cs" />
+    <Compile Include="Assets\Scripts\AbstractFactoryPattern\Client.cs" />
+    <Compile Include="Assets\Scripts\AbstractFactoryPattern\ITower.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\Tower\Canon\Canon6\cannon06.atlas.txt" />

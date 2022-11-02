@@ -154,7 +154,7 @@ public class UIController : MonoBehaviour
             priceToUpgrade = tower.GetComponent<LightningTowerController>().priceToUpgrade;
             priceToSell = tower.GetComponent<LightningTowerController>().price;
         }
-
+        priceToSell *= 0.8f;
         btnUpgradeTower.transform.GetChild(2).GetComponent<Text>().text = priceToUpgrade.ToString();
         btnSellTower.transform.GetChild(2).GetComponent<Text>().text = priceToSell.ToString();
 
