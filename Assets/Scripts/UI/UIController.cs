@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
+using System;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
+using Newtonsoft.Json;
 
 public class UIController : MonoBehaviour
 {
@@ -321,7 +325,7 @@ public class UIController : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         //pnlLoading.SetActive(false);
-    }
+    }       
 
     public void ButtonHome()
     {
@@ -490,5 +494,165 @@ public class UIController : MonoBehaviour
                 txtGameSpeed.text = "x1";
                 break;
         }
+    }
+    public void ButtonSave()
+    {
+        StartCoroutine(DelaySave());
+    }
+
+    IEnumerator DelaySave()
+    {
+        Time.timeScale = 1;
+        txtGameSpeed.text = "x1";
+        yield return new WaitForSeconds(1f);
+
+        //BinaryFormatter formatter = new BinaryFormatter();
+        ////string path =  Application.persistentDataPath + "/PlayerData.xml";
+        //string path= (Path.Combine(Application.persistentDataPath, "PlayerData.xml"));
+        //Debug.Log(path.ToString());
+        //FileStream stream = new FileStream(path, FileMode.Create);
+        string path = Application.persistentDataPath;
+        string authorsFile = "data.json";
+        if (File.Exists(Path.Combine(path, authorsFile)))
+        {
+            // If file found, delete it    
+            File.Delete(Path.Combine(path, authorsFile)); // delete file
+        }
+        int type=0;
+         int index=0;
+         int level=0;
+         int wave=0;
+        int health = 0;
+        float coin = 0;
+
+        List<SaveData> saveDatas = new List<SaveData>();
+        foreach(Transform tower in gameplayParent.GetChild(0).GetChild(2))
+        {
+            if (tower.GetComponent<ArcherTowerController>() != null)
+            {
+                type = 1;
+                index = tower.GetComponent<TowerController>().towerPlacementIndex;
+                level = tower.GetComponent<ArcherTowerController>().Level;
+                wave = MonsterSpawnController.instance.WaveSpawn;
+                health = PlayerSetting.instance.Health;
+                coin = PlayerSetting.instance.Coin;
+                SaveData saveData = new SaveData(type,index,level,wave,health,coin);
+                saveDatas.Add(saveData);
+                
+                
+            }
+            else if (tower.GetComponent<CanonTowerController>() != null)
+            {
+                type = 2;
+                index = tower.GetComponent<TowerController>().towerPlacementIndex;
+                level = tower.GetComponent<CanonTowerController>().Level;
+                wave = MonsterSpawnController.instance.WaveSpawn;
+                health = PlayerSetting.instance.Health;
+                coin = PlayerSetting.instance.Coin;
+                SaveData saveData = new SaveData(type, index, level, wave, health, coin);
+                saveDatas.Add(saveData);
+            }
+            else if (tower.GetComponent<MagicTowerController>() != null)
+            {
+                type = 3;
+                index = tower.GetComponent<TowerController>().towerPlacementIndex;
+                level = tower.GetComponent<MagicTowerController>().Level;
+                wave = MonsterSpawnController.instance.WaveSpawn;
+                health = PlayerSetting.instance.Health;
+                coin = PlayerSetting.instance.Coin;
+                SaveData saveData = new SaveData(type, index, level, wave, health, coin);
+                saveDatas.Add(saveData);
+            }
+            else if (tower.GetComponent<LightningTowerController>() != null)
+            {
+                type = 4;
+                index = tower.GetComponent<TowerController>().towerPlacementIndex;
+                level = tower.GetComponent<LightningTowerController>().Level;
+                wave = MonsterSpawnController.instance.WaveSpawn;
+                health = PlayerSetting.instance.Health;
+                coin = PlayerSetting.instance.Coin;
+                SaveData saveData = new SaveData(type, index, level, wave, health, coin);
+                saveDatas.Add(saveData);
+            }
+            var Json = JsonConvert.SerializeObject(saveDatas, Formatting.Indented); // convert t? list game object sang json
+            File.WriteAllText(Path.Combine(path, authorsFile), Json); // save vào file
+        }
+        
+
+
+        Destroy(gameplayParent.GetChild(0).gameObject);
+        pnlHome.SetActive(true);
+        pnlIngame.SetActive(false);
+        pnlLose.SetActive(false);
+        pnlPause.SetActive(false);
+        AudioController.instance.PlaySound("mainMenu");
+
+        yield return new WaitForSeconds(0.5f);
+
+
+        yield return new WaitForSeconds(1f);
+    }
+    public void ButtonLoad()
+    {
+        StartCoroutine(DelayLoad());
+    }
+    IEnumerator DelayLoad()
+    {
+        AudioController.instance.PlaySound("ingame");
+        GameObject gameplay = Instantiate(gameplayPrefab, gameplayParent);
+        gameplay.transform.position = Vector3.zero;
+        pnlHome.SetActive(false);
+        pnlIngame.SetActive(true);
+
+        yield return new WaitForSeconds(0.5f);
+
+        string path = Application.persistentDataPath;
+        string authorsFile = "data.json";
+        string jsonFilePath = Path.Combine(path, authorsFile);
+
+        if (!File.Exists(jsonFilePath))
+        {
+            yield return new WaitForSeconds(0.5f);
+        }
+        else {
+            string json = File.ReadAllText(jsonFilePath);
+            var ob = JsonConvert.DeserializeObject<List<SaveData>>(json);
+
+            foreach (SaveData data in ob)
+            {
+                if (data.type == 1)
+                {
+
+                    StartCoroutine(TowerManager.instance.LoadTower(TowerManager.instance.archerTower, data.index,data.level));
+                    PlayerSetting.instance.Coin = data.coin;
+                    PlayerSetting.instance.Health = data.health;
+                    MonsterSpawnController.instance.WaveSpawn = data.wave;
+
+                }
+                else if (data.type == 2)
+                {
+                    StartCoroutine(TowerManager.instance.LoadTower(TowerManager.instance.canonTower, data.index, data.level));
+                    PlayerSetting.instance.Coin = data.coin;
+                    PlayerSetting.instance.Health = data.health;
+                    MonsterSpawnController.instance.WaveSpawn = data.wave;
+                }
+                else if (data.type == 3)
+                {
+                    StartCoroutine(TowerManager.instance.LoadTower(TowerManager.instance.magicTower, data.index, data.level));
+                    PlayerSetting.instance.Coin = data.coin;
+                    PlayerSetting.instance.Health = data.health;
+                    MonsterSpawnController.instance.WaveSpawn = data.wave;
+                }
+                else if (data.type == 4)
+                {
+                    StartCoroutine(TowerManager.instance.LoadTower(TowerManager.instance.barackTower, data.index, data.level));
+                    PlayerSetting.instance.Coin = data.coin;
+                    PlayerSetting.instance.Health = data.health;
+                    MonsterSpawnController.instance.WaveSpawn = data.wave;
+                }
+            }
+            File.Delete(jsonFilePath);
+        }
+        
     }
 }

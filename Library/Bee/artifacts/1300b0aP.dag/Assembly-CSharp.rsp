@@ -355,6 +355,8 @@
 "Assets/Scripts/Gameplay/TowerController.cs"
 "Assets/Scripts/Gameplay/TowerManager.cs"
 "Assets/Scripts/PlayerSetting/PlayerSetting.cs"
+"Assets/Scripts/SaveLoad/SaveData.cs"
+"Assets/Scripts/SaveLoad/SaveLoad.cs"
 "Assets/Scripts/SimpleJSON/SimpleJSON.cs"
 "Assets/Scripts/UI/AnimatedButton.cs"
 "Assets/Scripts/UI/UIController.cs"

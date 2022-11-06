@@ -124,8 +124,8 @@ public class MonsterController : MonoBehaviour
         AudioController.instance.PlaySound("gold");
         PlayerSetting.instance.Coin += priceDeath;
 
-        wood.SetActive(true);
-        wood.GetComponent<SkeletonAnimation>().state.SetAnimation(0, "play1", false);
+        //wood.SetActive(true);
+        //wood.GetComponent<SkeletonAnimation>().state.SetAnimation(0, "play1", false);
 
         Spine.TrackEntry trackEntry = skeletonAnimation.state.SetAnimation(0, "death", false);
 

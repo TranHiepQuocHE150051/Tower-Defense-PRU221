@@ -30,11 +30,9 @@
                 {
                     "source": "C:\\Users\\This PC\\Downloads\\Tower-Defense-2D-master\\Tower Defense 2D\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,112,168,217,263",
-                        "endColumns": "56,55,48,45,46",
-                        "endOffsets": "107,163,212,258,305"
+                        "startLines": "-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "3,4,5,6,7",
@@ -47,28 +45,26 @@
                 {
                     "source": "C:\\Users\\This PC\\Downloads\\Tower-Defense-2D-master\\Tower Defense 2D\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "2,2",
-                        "startOffsets": "55,105",
-                        "endColumns": "48,65",
-                        "endOffsets": "101,168"
+                        "startLines": "2,-1",
+                        "startColumns": "2,-1",
+                        "startOffsets": "55,-1",
+                        "endColumns": "47,-1",
+                        "endOffsets": "100,-1"
                     },
                     "to": {
                         "startLines": "8,9",
                         "startColumns": "4,4",
-                        "startOffsets": "356,407",
-                        "endColumns": "50,67",
-                        "endOffsets": "402,470"
+                        "startOffsets": "356,406",
+                        "endColumns": "49,67",
+                        "endOffsets": "401,469"
                     }
                 },
                 {
                     "source": "C:\\Users\\This PC\\Downloads\\Tower-Defense-2D-master\\Tower Defense 2D\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\ids.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "46",
-                        "endOffsets": "97"
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
                     },
                     "to": {
                         "startLines": "2",
@@ -81,20 +77,17 @@
                 {
                     "source": "C:\\Users\\This PC\\Downloads\\Tower-Defense-2D-master\\Tower Defense 2D\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "5,2,7",
-                        "startColumns": "0,0,0",
-                        "startOffsets": "190,53,288",
-                        "endLines": "6,4,10",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "286,188,513"
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
                     },
                     "to": {
                         "startLines": "10,12,15",
                         "startColumns": "4,4,4",
-                        "startOffsets": "475,575,713",
+                        "startOffsets": "474,574,712",
                         "endLines": "11,14,18",
                         "endColumns": "8,8,8",
-                        "endOffsets": "570,708,935"
+                        "endOffsets": "569,707,934"
                     }
                 }
             ]

@@ -35,7 +35,7 @@ public class GameplayController : MonoBehaviour
     void Start()
     {
         //GetMapSize();
-
+        Debug.Log(Application.persistentDataPath);
         PlayerSetting.instance.Coin = 300;
         PlayerSetting.instance.Health = 15;
     }

@@ -133,9 +133,112 @@ public class TowerManager : MonoBehaviour
             }
         }
     }
+    public IEnumerator LoadTower(GameObject tower, int towerPlacementIndex, int level)
+    {
+        Transform towerPlacement = towerPlacementParent.GetChild(towerPlacementIndex);
+
+        GameObject effectSpawn = Instantiate(effectSpawnTower);
+        effectSpawn.transform.position = towerPlacement.position;
+
+        yield return new WaitForSeconds(0.4f);
+
+        GameObject newTower = Instantiate(tower, towerParent);
+        towerPlacement.gameObject.SetActive(false);
+        newTower.transform.position = towerPlacement.position;
+        newTower.GetComponent<TowerController>().towerPlacementIndex = towerPlacementIndex;
+        
+        if (newTower.GetComponent<ArcherTowerController>() != null)
+        {
+            if (level == 1)
+            {
+            }
+            else if (level == 2)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+            }
+            else if (level == 3)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+            }
+            else if (level == 4)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+            }
+
+
+        }
+        else if (newTower.GetComponent<CanonTowerController>() != null)
+        {
+            if (level == 1)
+            {
+            }
+            else if (level == 2)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+            }
+            else if (level == 3)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+            }
+            else if (level == 4)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+            }
+        }
+        else if (newTower.GetComponent<MagicTowerController>() != null)
+        {
+            if (level == 1)
+            {
+            }
+            else if (level == 2)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+            }
+            else if (level == 3)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+            }
+            else if (level == 4)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+            }
+        }
+        else if (newTower.GetComponent<LightningTowerController>() != null)
+        {
+            if (level == 1)
+            {
+            }
+            else if (level == 2)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+            }
+            else if (level == 3)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+            }
+            else if (level == 4)
+            {
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+                StartCoroutine(UpgradeTower(newTower));
+            }
+        }
+
+    }
 
     public IEnumerator UpgradeTower(GameObject tower)
     {
+        Debug.Log("Upgrade");
         Transform towerLevel = tower.transform.GetChild(0);
         for (int i = 0; i < towerLevel.childCount - 1; i++)
         {
